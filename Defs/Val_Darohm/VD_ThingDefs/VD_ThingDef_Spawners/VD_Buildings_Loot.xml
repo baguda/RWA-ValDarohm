@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--
+Spawners are buildings with the spawner comp property, and they are designed specifically for use as an RPG element. 
+Building: the building of the spawner is used for customization and loot definitions. The graphic can be set to a theme or use an invisible graphic to hide the spawner.
+
+isPlayer: set spawned pawn to player faction
+thirdsBetweenSpawns: a third is 1/60 of a second… 
+numberToSpawn: int value of number of pawns that will spawn
+pawnKind: DefName of the PawnKindDef to spawn. 
+newborn: the options was there so I added it :)
+selfDestruct: if the spawner is auto deleted after exhausting their number of pawns
+isProxy: Uses a proximity range to initiate the spawner when a player pawn is within range.
+proxyRadius: radial range for proxy trigger.
+isDamageSwitch: Uses health percent of building to trigger spawner when it falls below the value.
+DamagePercent: The integer percent health that the Damage switch will trigger on.
+getDrops: This indicates if the spawner will drop its building cost materials upon self-destructing  
+
+-->
+
+ 
+  
+  
+  <ThingDef ParentName="BuildingBase"> 
+    <defName>VD_AdvancedChest</defName>
+    <label>Rare Chest</label>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Val_Darohm/AdvancedChest</texPath>
+      <graphicClass>Graphic_single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>10</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>0.0</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <description>A rare chest used to store items.</description>
+    <canOverlapZones>true</canOverlapZones>
+			<costList>
+			<Silver>50</Silver>
+			<Gold>10</Gold>
+		</costList>
+    <selectable>true</selectable>
+	<building>
+	  <deconstructible>false</deconstructible>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <size>(1,1)</size>
+    <comps>
+	<li Class="Adventure.Mechanics.CompProperties_PawnSpawner">
+		<isPlayer>false</isPlayer>
+		<thirdsBetweenSpawns>30</thirdsBetweenSpawns> <!-- 1 third = 1/60 of a second -->
+		<numberToSpawn>0</numberToSpawn>
+		<pawnKind>Pirate</pawnKind>
+		<newborn>false</newborn>
+		<selfDestruct>true</selfDestruct>
+		<isProxy>false</isProxy>
+		<isDamageSwitch>false</isDamageSwitch>
+		<DamagePercent>50</DamagePercent>
+		<getDrops>true</getDrops>
+		<proxyRadius>1</proxyRadius>
+		<lordJob>assault</lordJob>
+		<FactionDefName></FactionDefName>
+		<useFaction>false</useFaction>
+		<isSearched>true</isSearched> 
+		<ButtonLabel>Search</ButtonLabel>
+		<ButtonGraphicPath>Adventure/searchIcon</ButtonGraphicPath>
+		<ButtonDesc>Search the Chest</ButtonDesc>
+      </li>
+
+    </comps>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <staticSunShadowHeight>0.3</staticSunShadowHeight>
+    <designationHotKey>Misc3</designationHotKey>
+  </ThingDef>
+  
+ <ThingDef ParentName="BuildingBase"> 
+    <defName>VD_chest</defName>
+    <label>Simple Chest</label>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Val_Darohm/Chest</texPath>
+      <graphicClass>Graphic_single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>10</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>0.0</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <description>A chest used to store items.</description>
+    <canOverlapZones>true</canOverlapZones>
+			<costList>
+			<Silver>20</Silver>
+		</costList>
+    <selectable>true</selectable>
+	<building>
+	  <deconstructible>false</deconstructible>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <size>(1,1)</size>
+    <comps>
+	<li Class="Adventure.Mechanics.CompProperties_PawnSpawner">
+		<isPlayer>false</isPlayer>
+		<thirdsBetweenSpawns>30</thirdsBetweenSpawns> <!-- 1 third = 1/60 of a second -->
+		<numberToSpawn>0</numberToSpawn>
+		<pawnKind>Pirate</pawnKind>
+		<newborn>false</newborn>
+		<selfDestruct>true</selfDestruct>
+		<isProxy>false</isProxy>
+		<isDamageSwitch>false</isDamageSwitch>
+		<DamagePercent>50</DamagePercent>
+		<getDrops>true</getDrops>
+		<proxyRadius>1</proxyRadius>
+		<lordJob>assault</lordJob>
+		<FactionDefName></FactionDefName>
+		<useFaction>false</useFaction>
+		<isSearched>true</isSearched> 
+		<ButtonLabel>Search</ButtonLabel>
+		<ButtonGraphicPath>Adventure/searchIcon</ButtonGraphicPath>
+		<ButtonDesc>Search the Chest</ButtonDesc>
+      </li>
+
+    </comps>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <staticSunShadowHeight>0.3</staticSunShadowHeight>
+    <designationHotKey>Misc3</designationHotKey>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase"> 
+    <defName>VD_chestT</defName>
+    <label>Simple Chest</label>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Val_Darohm/Chest</texPath>
+      <graphicClass>Graphic_single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>10</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>0.0</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <description>A chest used to store items.</description>
+    <canOverlapZones>true</canOverlapZones>
+			<costList>
+			<Silver>100</Silver>
+		</costList>
+    <selectable>true</selectable>
+	<building>
+	  <deconstructible>false</deconstructible>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <size>(1,1)</size>
+    <comps>
+	<li Class="Adventure.Mechanics.CompProperties_PawnSpawner">
+		<isPlayer>false</isPlayer>
+		<thirdsBetweenSpawns>10</thirdsBetweenSpawns> <!-- 1 third = 1/60 of a second -->
+		<numberToSpawn>1</numberToSpawn>
+		<pawnKind>Tribal_Warrior</pawnKind>
+		<newborn>false</newborn>
+		<selfDestruct>true</selfDestruct>
+		<isProxy>false</isProxy>
+		<isDamageSwitch>false</isDamageSwitch>
+		<DamagePercent>50</DamagePercent>
+		<getDrops>true</getDrops>
+		<proxyRadius>1</proxyRadius>
+		<lordJob>assault</lordJob>
+		<FactionDefName></FactionDefName>
+		<useFaction>false</useFaction>
+		<isSearched>true</isSearched> 
+		<ButtonLabel>Search</ButtonLabel>
+		<ButtonGraphicPath>Adventure/searchIcon</ButtonGraphicPath>
+		<ButtonDesc>Search the Chest</ButtonDesc>
+      </li>
+
+    </comps>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <staticSunShadowHeight>0.3</staticSunShadowHeight>
+    <designationHotKey>Misc3</designationHotKey>
+  </ThingDef>
+</Defs>

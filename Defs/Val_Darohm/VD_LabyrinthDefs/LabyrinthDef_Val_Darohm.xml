@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+	
+	
+	 <Adventure.PrimAdventure.DungeonDef>
+	<!--Basic-->
+		<defName>ValDarohmRuins</defName>
+		<label>Ruins of Val'Darohm</label>
+		
+	<!--Labyrinth Gen-->
+		<PathWidth>4</PathWidth>        
+		<MapSize>(100,1,100)</MapSize>
+        <WorldObjName>ValDarohmWO</WorldObjName>
+		<IsLinked>false</IsLinked>
+		<TargetBiome>Desert</TargetBiome>
+        <StepsAway>50</StepsAway>
+		<Enclosed>true</Enclosed>
+
+	<!--Labyrinth Details-->	
+        <!--isOutlined>false</isOutlined-->
+		<isFilled>true</isFilled>
+        <isWalled>true</isWalled>
+        <isRoofed>true</isRoofed>
+        <isShellRoofed>true</isShellRoofed>
+        <isShellFloored>true</isShellFloored>
+        <isCaveLike>false</isCaveLike>
+		<UseBlockFloors>false</UseBlockFloors>
+		
+	<!--Enterance and exit-->
+        <isWalkIn>false</isWalkIn>	
+        <isInZDir>true</isInZDir>
+        <isInPosDir>true</isInPosDir>
+		
+		<isWalkOut>false</isWalkOut>
+        <isOutZDir>false</isOutZDir>
+        <isOutPosDir>false</isOutPosDir>
+		
+        <isOutDoored>false</isOutDoored>
+	
+	<Settings>
+	     <useWeather>true</useWeather> 
+         <WeatherDefName>RPGGloom</WeatherDefName>
+         <UseFoodFreeze>false</UseFoodFreeze> 
+         <UseRestFreeze>false</UseRestFreeze>
+         <UseJoyFreeze>false</UseJoyFreeze> 
+
+         <UseNeedsModifiers>true</UseNeedsModifiers>
+         <UseFoodModifier>true</UseFoodModifier>
+         <UseRestModifier>true</UseRestModifier>
+         <UseJoyModifier>true</UseJoyModifier>
+         <TicksPerTurn>600</TicksPerTurn>
+         <FoodPerTurn>0.025</FoodPerTurn>
+         <NeedsPerTurn>0.01</NeedsPerTurn>
+         <RestPerTurn>0.01</RestPerTurn>
+         <JoyPerTurn>0.01</JoyPerTurn>
+
+         <UseAdventureThought>true</UseAdventureThought>
+         <UseAdventureHealth>true</UseAdventureHealth>
+		 <HealthRegenPerTurn>0.1</HealthRegenPerTurn>
+         <useParty>true</useParty>
+         <PartySize>5</PartySize>
+         <useCheckPoint>true</useCheckPoint>
+         <UseDrafted>true</UseDrafted>
+	</Settings>
+	
+	
+	<!--DefNames PavedTile-->	
+        <BlockDefName>RPGWall</BlockDefName>
+        <FloorDefName>PavedTile</FloorDefName>
+        <DoorDefName>Door</DoorDefName>
+        <BlockStuffDefName>BlocksGranite</BlockStuffDefName>
+        <FloorBlockDefName>Lava</FloorBlockDefName>
+        <DoorStuffDefName>Steel</DoorStuffDefName>
+		<EnterenceDefName>RPGStairsUp</EnterenceDefName>
+		<ExitDefName></ExitDefName>
+		<UseExit>false</UseExit>
+        <encounterDefNames>
+
+			<li>VD_MiniBoss</li>
+			<li>VD_Tribe_PodC</li>
+			<li>VD_Tribe_PodB</li>
+			<li>VD_Tribe_PodA</li>
+			<li>VD_Raiders_Podb</li>
+			<li>VD_Raiders_PodA</li>
+			<li>VD_Raiders_BasicB</li>
+			<li>VD_Raiders_BasicA</li>
+			<li>VD_Raiders_Basic</li>
+		</encounterDefNames>
+		<LinkedLabyrinthDefNames>
+		<li></li>
+		</LinkedLabyrinthDefNames>
+
+	<!--Shapes-->			
+		<ShapeList>
+			<!--li Class="MapToolBag.IntVecShape">
+				<ShapeName>Circle</ShapeName>
+				<PointA>(5,0,5)</PointA>
+				<PointB>(95,0,95)</PointB>
+				<PointC>(0,0,0)</PointC>
+				<PointD>(0,0,0)</PointD>
+				<isNegative>true</isNegative>
+			</li-->
+		</ShapeList>
+
+		<LotsList>
+		<li>ArtP4T1v</li>
+		<li>ArtP4T1h</li>
+		<li>ArtP4T2h</li>
+		<li>ArtP4T2v</li>
+		
+		<li>WorkP4T1v</li>
+		<li>WorkP4T1h</li>
+		<li>WorkP4T2h</li>
+		<li>WorkP4T2v</li>
+		<li>WorkP4T4v</li>
+		
+		<li>LivingP4T1v</li>
+		<li>LivingP4T1h</li>
+		<li>LivingP4T2h</li>
+		<li>LivingP4T2v</li>
+		<li>LivingP4T3v</li>
+		<li>LivingP4T4v</li>
+		<li>LivingP4T4h</li>
+		</LotsList>
+		
+	</Adventure.PrimAdventure.DungeonDef>
+	
+	  
+   <!--Adventure.PrimAdventure.DungeonDef>
+	
+		<defName>ValDarohmEnterance</defName>
+		<label>Enterance to Val'Darohm</label>
+		
+		<PathWidth>5</PathWidth>        
+		<MapSize>(100,1,100)</MapSize>
+        <WorldObjName>ValDarohmWO</WorldObjName>
+		<IsLinked>false</IsLinked>
+		<TargetBiome>Tundra</TargetBiome>
+        <StepsAway>50</StepsAway>
+		<Enclosed>false</Enclosed>
+
+		<isFilled>true</isFilled>
+        <isWalled>true</isWalled>
+        <isRoofed>true</isRoofed>
+        <isShellRoofed>true</isShellRoofed>
+        <isShellFloored>true</isShellFloored>
+        <isCaveLike>true</isCaveLike>
+		<UseBlockFloors>false</UseBlockFloors>
+		<isDoored>false</isDoored>
+		
+        <isWalkIn>true</isWalkIn>	
+        <isInZDir>false</isInZDir>
+        <isInPosDir>true</isInPosDir>
+		
+		<isWalkOut>false</isWalkOut>
+        <isOutZDir>false</isOutZDir>
+        <isOutPosDir>false</isOutPosDir>
+		
+        <isOutDoored>false</isOutDoored>
+	
+        <BlockDefName>Slate</BlockDefName>
+        <FloorDefName>MarshyTerrain</FloorDefName>
+        <DoorDefName>Door</DoorDefName>
+        <BlockStuffDefName>BlocksSandstone</BlockStuffDefName>
+        <FloorBlockDefName>WaterDeep</FloorBlockDefName>
+        <DoorStuffDefName>WoodLog</DoorStuffDefName>
+		<EnterenceDefName></EnterenceDefName>
+		<ExitDefName>ValDarohmMainEnterance</ExitDefName>
+		
+		<UseExit>true</UseExit>
+        <encounterDefNames>
+			<li>VD_Raiders_Basic</li>
+		</encounterDefNames>
+		<LinkedLabyrinthDefNames>
+		<li></li>
+		</LinkedLabyrinthDefNames>
+		
+		<ShapeList>
+		<li Class="PRimUtility.IntVecShape">
+			<ShapeName>Triangle</ShapeName>
+			<PointA>(5,0,10)</PointA>
+			<PointB>(30,0,90)</PointB>
+			<PointC>(95,0,18)</PointC>
+			<isNegative>true</isNegative>
+		</li>
+
+		</ShapeList>
+
+		<LotsList>
+		<li>CryptA1v</li>
+		<li>CryptA1h</li>
+		<li>CryptA2h</li>
+		
+		</LotsList>
+		
+	</Adventure.PrimAdventure.DungeonDef-->
+	
+	<!--*****************************************************************************************************************************-->
+	
+   </Defs>

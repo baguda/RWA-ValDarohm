@@ -1,0 +1,1527 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  
+
+  
+  <MapLotsFramework.MapLotDef>
+  <defName>Church</defName>
+	  <mapLotDef>
+		<LotName>Church</LotName>
+		<LotTags><li></li></LotTags>
+		<LotSize>(150,0,150)</LotSize>
+		<LotCorner>(50,0,50)</LotCorner>
+		<BiomeDefName>Desert</BiomeDefName>
+		<useBiome>false</useBiome>
+		<WorldObjectDefName>TownMap</WorldObjectDefName>
+		<useWorldObject>false</useWorldObject>
+		<Shapes>        
+			<li>
+				<ShapeNameTag>Slab</ShapeNameTag>
+				<ShapeDefTag>TileMarble</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(5, 0, 92)</PointA>
+				<PointB>(30, 0, 28)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+			</li> 
+			<li>
+				<ShapeNameTag>Walls</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>BlocksGranite</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(5, 0, 92)</PointA>
+				<PointB>(30, 0, 28)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 
+			
+			<li>
+				<ShapeNameTag>Slab2</ShapeNameTag>
+				<ShapeDefTag>TileMarble</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(10, 0, 92)</PointA>
+				<PointB>(20, 0, 23)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+			</li> 
+			<li>
+				<ShapeNameTag>Walls2</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>BlocksGranite</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(10, 0, 92)</PointA>
+				<PointB>(20, 0, 23)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 
+			
+			<li>
+				<ShapeNameTag>Slab3</ShapeNameTag>
+				<ShapeDefTag>TileMarble</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(11, 0, 87)</PointA>
+				<PointB>(18, 0, 6)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+			</li> 
+			<li>
+				<ShapeNameTag>Walls3</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>BlocksGranite</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(11, 0, 87)</PointA>
+				<PointB>(18, 0, 6)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 
+			
+			<li>
+				<ShapeNameTag>Slab4</ShapeNameTag>
+				<ShapeDefTag>TileMarble</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(16, 0, 79)</PointA>
+				<PointB>(8, 0, 9)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+			</li> 
+			<li>
+				<ShapeNameTag>Walls4</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>BlocksGranite</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(16, 0, 79)</PointA>
+				<PointB>(8, 0, 9)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 
+			
+			<li>
+				<ShapeNameTag>Slab5</ShapeNameTag>
+				<ShapeDefTag>TileMarble</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(20, 0, 115)</PointA>
+				<PointB>(0, 0, 4)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+			</li> 
+			<li>
+				<ShapeNameTag>Walls5</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>BlocksGranite</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(20, 0, 115)</PointA>
+				<PointB>(0, 0, 4)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 
+			<li>
+				<ShapeNameTag>Slab6</ShapeNameTag>
+				<ShapeDefTag>TileMarble</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(31, 0, 114)</PointA>
+				<PointB>(3, 0, 1)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+			</li> 
+			<li>
+				<ShapeNameTag>Walls6</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>BlocksGranite</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(31, 0, 114)</PointA>
+				<PointB>(3, 0, 1)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 
+			
+			<li>
+				<ShapeNameTag>inWall1</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>BlocksGranite</ShapeStuffTag>
+				<ShapeName>Line</ShapeName>
+				<PointA>(6, 0, 114)</PointA>
+				<PointB>(10, 0, 114)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+			</li> 
+			<li>
+				<ShapeNameTag>inWall3</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>BlocksGranite</ShapeStuffTag>
+				<ShapeName>Line</ShapeName>
+				<PointA>(20, 0, 115)</PointA>
+				<PointB>(20, 0, 118)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+			</li> 
+			<li>
+				<ShapeNameTag>inWall2</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>BlocksGranite</ShapeStuffTag>
+				<ShapeName>Line</ShapeName>
+				<PointA>(30, 0, 114)</PointA>
+				<PointB>(34, 0, 114)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+			</li> 
+			<li>
+				<ShapeNameTag>inWall4</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>BlocksGranite</ShapeStuffTag>
+				<ShapeName>Line</ShapeName>
+				<PointA>(17, 0, 87)</PointA>
+				<PointB>(22, 1, 87)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+			</li> 
+			<li>
+				<ShapeNameTag>doors</ShapeNameTag>
+				<ShapeDefTag>Door</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Points4</ShapeName>
+				<PointA>(18, 0, 79)</PointA>
+				<PointB>(21, 0, 79)</PointB>
+				<PointC>(26, 0, 92)</PointC>
+				<PointD>(14, 0, 92)</PointD>
+			</li> 	
+			<li>
+				<ShapeNameTag>doors2</ShapeNameTag>
+				<ShapeDefTag>Door</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Points4</ShapeName>
+				<PointA>(10, 0, 96)</PointA>
+				<PointB>(29, 0, 96)</PointB>
+				<PointC>(31, 0, 114)</PointC>
+				<PointD>(14, 0, 114)</PointD>
+			</li> 
+			<li>
+				<ShapeNameTag>Cols</ShapeNameTag>
+				<ShapeDefTag>Column</ShapeDefTag>
+				<ShapeStuffTag>BlocksGranite</ShapeStuffTag>
+				<ShapeName>Points4</ShapeName>
+				<PointA>(16, 0, 98)</PointA>
+				<PointB>(16, 0, 101)</PointB>
+				<PointC>(16, 0, 104)</PointC>
+				<PointD>(16, 0, 107)</PointD>
+			</li> 			
+			<li>
+				<ShapeNameTag>Cols2</ShapeNameTag>
+				<ShapeDefTag>Column</ShapeDefTag>
+				<ShapeStuffTag>BlocksGranite</ShapeStuffTag>
+				<ShapeName>Points4</ShapeName>
+				<PointA>(24, 0, 98)</PointA>
+				<PointB>(24, 0, 101)</PointB>
+				<PointC>(24, 0, 104)</PointC>
+				<PointD>(24, 0, 107)</PointD>
+			</li> 		
+			<li>
+				<ShapeNameTag>chairs</ShapeNameTag>
+				<ShapeDefTag>DiningChair</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Points4</ShapeName>
+				<PointA>(25, 0, 101)</PointA>
+				<PointB>(27, 0, 105)</PointB>
+				<PointC>(15, 0, 105)</PointC>
+				<PointD>(13, 0, 106)</PointD>
+			</li> 	
+			<li>
+				<ShapeNameTag>throne</ShapeNameTag>
+				<ShapeDefTag>Throne</ShapeDefTag>
+				<ShapeStuffTag>BlocksGranite</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(20, 2, 112)</PointA>
+				<PointB>(27, 0, 105)</PointB>
+				<PointC>(15, 0, 105)</PointC>
+				<PointD>(13, 0, 106)</PointD>
+			</li> 		
+			<li>
+				<ShapeNameTag>tablecut</ShapeNameTag>
+				<ShapeDefTag>TableStonecutter</ShapeDefTag>
+				<ShapeStuffTag>BlocksGranite</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(8, 0, 113)</PointA>
+				<PointB>(27, 0, 105)</PointB>
+				<PointC>(15, 0, 105)</PointC>
+				<PointD>(13, 0, 106)</PointD>
+			</li> 	
+			<li>
+				<ShapeNameTag>BP1</ShapeNameTag>
+				<ShapeDefTag>AdventurersBackpack</ShapeDefTag>
+				<ShapeStuffTag>BlocksGranite</ShapeStuffTag>
+				<ShapeName>Points2</ShapeName>
+				<PointA>(8, 0, 111)</PointA>
+				<PointB>(9, 0, 115)</PointB>
+				<PointC>(15, 0, 105)</PointC>
+				<PointD>(13, 0, 106)</PointD>
+			</li> 
+			<li>
+				<ShapeNameTag>tablecut3</ShapeNameTag>
+				<ShapeDefTag>Table2x4c</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(9, 1, 118)</PointA>
+				<PointB>(27, 0, 105)</PointB>
+				<PointC>(15, 0, 105)</PointC>
+				<PointD>(13, 0, 106)</PointD>
+			</li> 	
+
+			<li>
+				<ShapeNameTag>tablec</ShapeNameTag>
+				<ShapeDefTag>ValDarohmMainEnterance</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(23, 1, 116)</PointA>
+				<PointB>(27, 0, 105)</PointB>
+				<PointC>(15, 0, 105)</PointC>
+				<PointD>(13, 0, 106)</PointD>
+			</li> 			
+		</Shapes>
+		
+		
+	  </mapLotDef>
+	  
+	</MapLotsFramework.MapLotDef>
+	  
+<MapLotsFramework.MapLotDef>
+  <defName>HouseA</defName>
+	  <mapLotDef>
+		<LotName>House1</LotName>
+		<LotTags>
+		<li></li>
+		</LotTags>
+		<LotSize>(150,0,150)</LotSize>
+		<LotCorner>(50,0,50)</LotCorner>
+		<BiomeDefName>Desert</BiomeDefName>
+		<useBiome>false</useBiome>
+		<WorldObjectDefName>TownMap</WorldObjectDefName>
+		<useWorldObject>true</useWorldObject>
+		<Shapes>        
+			<li>
+				<ShapeNameTag>Slab</ShapeNameTag>
+				<ShapeDefTag>WoodPlankFloor</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(20, 0, 49)</PointA>
+				<PointB>(8, 0, 10)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+			</li> 
+			<li>
+				<ShapeNameTag>Walls</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>BlocksGranite</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(20, 0, 49)</PointA>
+				<PointB>(8, 0, 10)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 
+			
+			<li>
+				<ShapeNameTag>iWalls</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>BlocksGranite</ShapeStuffTag>
+				<ShapeName>Line</ShapeName>
+				<PointA>(6, 0, 114)</PointA>
+				<PointB>(10, 0, 114)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li> 
+			<li>
+				<ShapeNameTag>pot</ShapeNameTag>
+				<ShapeDefTag>PlantPot</ShapeDefTag>
+				<ShapeStuffTag>BlocksGranite</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(26, 0, 57)</PointA>
+				<PointB>(10, 0, 114)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 	
+			<li>
+				<ShapeNameTag>door</ShapeNameTag>
+				<ShapeDefTag>Door</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(27, 0, 54)</PointA>
+				<PointB>(10, 0, 114)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 			
+			<li>
+				<ShapeNameTag>table</ShapeNameTag>
+				<ShapeDefTag>Table2x2c</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(22, 0, 55)</PointA>
+				<PointB>(10, 0, 114)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 	
+			<li>
+				<ShapeNameTag>dress</ShapeNameTag>
+				<ShapeDefTag>Dresser</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(21, 1, 51)</PointA>
+				<PointB>(10, 0, 114)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 
+			<li>
+				<ShapeNameTag>bed</ShapeNameTag>
+				<ShapeDefTag>Bed</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(26, 3, 51)</PointA>
+				<PointB>(10, 0, 114)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 				
+		</Shapes>
+		
+	  </mapLotDef>
+  </MapLotsFramework.MapLotDef>
+ 
+ <MapLotsFramework.MapLotDef>
+  <defName>HouseB</defName>
+	  <mapLotDef>
+		<LotName>House2</LotName>
+		<LotTags>
+		<li></li>
+		</LotTags>
+		<LotSize>(150,0,150)</LotSize>
+		<LotCorner>(50,0,50)</LotCorner>
+		<BiomeDefName>Desert</BiomeDefName>
+		<useBiome>false</useBiome>
+		<WorldObjectDefName>TownMap</WorldObjectDefName>
+		<useWorldObject>true</useWorldObject>
+		<Shapes>        
+			<li>
+				<ShapeNameTag>Slab</ShapeNameTag>
+				<ShapeDefTag>WoodPlankFloor</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(59, 0, 60)</PointA>
+				<PointB>(18,0,11)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+			</li> 
+
+			<li>
+				<ShapeNameTag>Walls</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(59, 0, 60)</PointA>
+				<PointB>(18,0,11)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 
+			<li>
+				<ShapeNameTag>2Walls</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Line</ShapeName>
+				<PointA>(70, 0, 61)</PointA>
+				<PointB>(70, 0, 70)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li> 			
+			<li>
+				<ShapeNameTag>swrd</ShapeNameTag>
+				<ShapeDefTag>MeleeWeapon_LongSword</ShapeDefTag>
+				<ShapeStuffTag>Steel</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(61, 0, 65)</PointA>
+				<PointB>(70, 0, 70)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li> 	
+			<li>
+				<ShapeNameTag>tailor</ShapeNameTag>
+				<ShapeDefTag>HandTailoringBench</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(71, 1, 65)</PointA>
+				<PointB>(70, 0, 70)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li> 	
+			<li>
+				<ShapeNameTag>doors</ShapeNameTag>
+				<ShapeDefTag>Door</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Points2</ShapeName>
+				<PointA>(59, 0, 64)</PointA>
+				<PointB>(76, 0, 65)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li> 	
+			<li>
+				<ShapeNameTag>DiningChair</ShapeNameTag>
+				<ShapeDefTag>DiningChair</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Points2</ShapeName>
+				<PointA>(61, 0, 66)</PointA>
+				<PointB>(65, 0, 66)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>			
+		</Shapes>
+		
+	  </mapLotDef>
+  </MapLotsFramework.MapLotDef>
+ 
+ <MapLotsFramework.MapLotDef>
+  <defName>HouseC</defName>
+	  <mapLotDef>
+		<LotName>House2</LotName>
+		<LotTags>
+		<li></li>
+		</LotTags>
+		<LotSize>(150,0,150)</LotSize>
+		<LotCorner>(50,0,50)</LotCorner>
+		<BiomeDefName>Desert</BiomeDefName>
+		<useBiome>false</useBiome>
+		<WorldObjectDefName>TownMap</WorldObjectDefName>
+		<useWorldObject>true</useWorldObject>
+		<Shapes>        
+			<li>
+				<ShapeNameTag>Slab</ShapeNameTag>
+				<ShapeDefTag>WoodPlankFloor</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(36, 0, 35)</PointA>
+				<PointB>(15,0,9)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+			</li> 
+			<li>
+				<ShapeNameTag>Walls</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(36, 0, 35)</PointA>
+				<PointB>(15,0,9)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 
+			<li>
+				<ShapeNameTag>iwall</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Line</ShapeName>
+				<PointA>(40, 0, 36)</PointA>
+				<PointB>(40, 0, 42)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>
+			<li>
+				<ShapeNameTag>dr</ShapeNameTag>
+				<ShapeDefTag>Door</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Points2</ShapeName>
+				<PointA>(50, 0, 39)</PointA>
+				<PointB>(40, 0, 40)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>			
+			<li>
+				<ShapeNameTag>tb</ShapeNameTag>
+				<ShapeDefTag>Table2x2c</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Points2</ShapeName>
+				<PointA>(45, 0, 36)</PointA>
+				<PointB>(45, 0, 41)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>
+			<li>
+				<ShapeNameTag>AH</ShapeNameTag>
+				<ShapeDefTag>Apparel_AdvancedHelmet</ShapeDefTag>
+				<ShapeStuffTag>Steel</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(39, 0, 40)</PointA>
+				<PointB>(45, 0, 41)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>	
+			<li>
+				<ShapeNameTag>bd</ShapeNameTag>
+				<ShapeDefTag>Bed</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(37, 2, 40)</PointA>
+				<PointB>(45, 0, 41)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>				
+		</Shapes>
+		
+	  </mapLotDef>
+  </MapLotsFramework.MapLotDef>
+  <MapLotsFramework.MapLotDef>
+  <defName>HouseD</defName>
+	  <mapLotDef>
+		<LotName>House4</LotName>
+		<LotTags>
+		<li></li>
+		</LotTags>
+		<LotSize>(150,0,150)</LotSize>
+		<LotCorner>(50,0,50)</LotCorner>
+		<BiomeDefName>Desert</BiomeDefName>
+		<useBiome>false</useBiome>
+		<WorldObjectDefName>TownMap</WorldObjectDefName>
+		<useWorldObject>true</useWorldObject>
+		<Shapes>        
+			<li>
+				<ShapeNameTag>Slab</ShapeNameTag>
+				<ShapeDefTag>WoodPlankFloor</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(63, 0, 41)</PointA>
+				<PointB>(17,0,13)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+			</li> 
+			<li>
+				<ShapeNameTag>Walls</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(63, 0, 41)</PointA>
+				<PointB>(17,0,13)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 
+			<li>
+				<ShapeNameTag>Slab1</ShapeNameTag>
+				<ShapeDefTag>WoodPlankFloor</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(64, 0, 37)</PointA>
+				<PointB>(10,0,5)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+			</li> 
+			<li>
+				<ShapeNameTag>Walls2</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(64, 0, 37)</PointA>
+				<PointB>(10,0,5)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 
+			
+			<li>
+				<ShapeNameTag>iwall</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Line</ShapeName>
+				<PointA>(64, 0, 48)</PointA>
+				<PointB>(79, 0, 48)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>
+			<li>
+				<ShapeNameTag>iwall2</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Line</ShapeName>
+				<PointA>(69, 0, 49)</PointA>
+				<PointB>(69, 0, 53)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>	
+			<li>
+				<ShapeNameTag>iwall3</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Line</ShapeName>
+				<PointA>(74, 0, 49)</PointA>
+				<PointB>(74, 0, 53)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>	
+			<li>
+				<ShapeNameTag>iwall4</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Line</ShapeName>
+				<PointA>(65, 0, 41)</PointA>
+				<PointB>(72, 1, 41)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>			
+			<li>
+				<ShapeNameTag>dr</ShapeNameTag>
+				<ShapeDefTag>Door</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Points4</ShapeName>
+				<PointA>(66, 0, 48)</PointA>
+				<PointB>(77, 0, 48)</PointB>
+				<PointC>(78, 0, 41)</PointC>
+				<PointD>(72, 0, 48)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>			
+			<li>
+				<ShapeNameTag>tb</ShapeNameTag>
+				<ShapeDefTag>Table2x4c</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Points2</ShapeName>
+				<PointA>(68, 0, 43)</PointA>
+				<PointB>(72, 0, 43)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>
+			<li>
+				<ShapeNameTag>AH</ShapeNameTag>
+				<ShapeDefTag>FueledStove</ShapeDefTag>
+				<ShapeStuffTag>Steel</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(65, 3, 39)</PointA>
+				<PointB>(45, 0, 41)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>	
+			<li>
+				<ShapeNameTag>AH3</ShapeNameTag>
+				<ShapeDefTag>FermentingBarrel</ShapeDefTag>
+				<ShapeStuffTag>Steel</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(64,2, 47)</PointA>
+				<PointB>(45, 0, 41)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>
+			<li>
+				<ShapeNameTag>AH33</ShapeNameTag>
+				<ShapeDefTag>TableAdventure</ShapeDefTag>
+				<ShapeStuffTag>Steel</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(71,0, 50)</PointA>
+				<PointB>(45, 0, 41)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>
+			<li>
+				<ShapeNameTag>AH133</ShapeNameTag>
+				<ShapeDefTag>AdventurersBackpack</ShapeDefTag>
+				<ShapeStuffTag>Steel</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(71,0, 49)</PointA>
+				<PointB>(45, 0, 41)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>	
+			<li>
+				<ShapeNameTag>AH1337</ShapeNameTag>
+				<ShapeDefTag>AdventureFlares</ShapeDefTag>
+				<ShapeStuffTag>Steel</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(70,0, 49)</PointA>
+				<PointB>(45, 0, 41)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>				
+			<li>
+				<ShapeNameTag>bd</ShapeNameTag>
+				<ShapeDefTag>Bed</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Points2</ShapeName>
+				<PointA>(65, 2, 52)</PointA>
+				<PointB>(76, 0, 52)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>				
+		</Shapes>
+		
+	  </mapLotDef>
+  </MapLotsFramework.MapLotDef>
+ 
+ <MapLotsFramework.MapLotDef>
+  <defName>HouseH</defName>
+	  <mapLotDef>
+		<LotName>House5</LotName>
+		<LotTags>
+		<li></li>
+		</LotTags>
+		<LotSize>(150,0,150)</LotSize>
+		<LotCorner>(50,0,50)</LotCorner>
+		<BiomeDefName>Desert</BiomeDefName>
+		<useBiome>false</useBiome>
+		<WorldObjectDefName>TownMap</WorldObjectDefName>
+		<useWorldObject>true</useWorldObject>
+		<Shapes>        
+			<li>
+				<ShapeNameTag>Slab</ShapeNameTag>
+				<ShapeDefTag>WoodPlankFloor</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(65, 0, 15)</PointA>
+				<PointB>(12,0,12)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+			</li> 
+			<li>
+				<ShapeNameTag>Walls</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(65, 0, 15)</PointA>
+				<PointB>(12,0,12)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 
+			
+			<li>
+				<ShapeNameTag>iwall</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Line</ShapeName>
+				<PointA>(70, 0, 16)</PointA>
+				<PointB>(70, 0, 26)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>
+					
+			<li>
+				<ShapeNameTag>dr</ShapeNameTag>
+				<ShapeDefTag>Door</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Points2</ShapeName>
+				<PointA>(76, 0, 24)</PointA>
+				<PointB>(70, 0, 17)</PointB>
+				<PointC>(78, 0, 41)</PointC>
+				<PointD>(72, 0, 48)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>			
+			<li>
+				<ShapeNameTag>tb</ShapeNameTag>
+				<ShapeDefTag>Table1x2c</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Points4</ShapeName>
+				<PointA>(73, 0, 24)</PointA>
+				<PointB>(73, 0, 22)</PointB>
+				<PointC>(73, 0, 20)</PointC>
+				<PointD>(73, 0, 18)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>
+			<li>
+				<ShapeNameTag>AH1337</ShapeNameTag>
+				<ShapeDefTag>AdventureFlares</ShapeDefTag>
+				<ShapeStuffTag>Steel</ShapeStuffTag>
+				<ShapeName>Points2</ShapeName>
+				<PointA>(72,0, 20)</PointA>
+				<PointB>(72, 0, 21)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>
+			<li>
+				<ShapeNameTag>AH</ShapeNameTag>
+				<ShapeDefTag>DoubleBed</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(66, 1, 23)</PointA>
+				<PointB>(45, 0, 41)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>	
+			<li>
+				<ShapeNameTag>AH3</ShapeNameTag>
+				<ShapeDefTag>Dresser</ShapeDefTag>
+				<ShapeStuffTag>Steel</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(66,0, 16)</PointA>
+				<PointB>(45, 0, 41)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>
+				
+		</Shapes>
+		
+	  </mapLotDef>
+  </MapLotsFramework.MapLotDef>
+  
+  <MapLotsFramework.MapLotDef>
+  <defName>HouseE</defName>
+	  <mapLotDef>
+		<LotName>House8</LotName>
+		<LotTags>
+		<li></li>
+		</LotTags>
+		<LotSize>(150,0,150)</LotSize>
+		<LotCorner>(50,0,50)</LotCorner>
+		<BiomeDefName>Desert</BiomeDefName>
+		<useBiome>false</useBiome>
+		<WorldObjectDefName>TownMap</WorldObjectDefName>
+		<useWorldObject>true</useWorldObject>
+		<Shapes>        
+			<li>
+				<ShapeNameTag>Slab</ShapeNameTag>
+				<ShapeDefTag>WoodPlankFloor</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(104, 0, 24)</PointA>
+				<PointB>(9,0,15)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+			</li> 
+			<li>
+				<ShapeNameTag>Walls</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(104, 0, 24)</PointA>
+				<PointB>(9,0,15)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 
+			
+			<li>
+				<ShapeNameTag>iwall</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Line</ShapeName>
+				<PointA>(105, 0, 31)</PointA>
+				<PointB>(112, 0, 31)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>
+		
+					
+			<li>
+				<ShapeNameTag>dr</ShapeNameTag>
+				<ShapeDefTag>Door</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Points2</ShapeName>
+				<PointA>(112, 0, 34)</PointA>
+				<PointB>(109, 0, 31)</PointB>
+				<PointC>(78, 0, 41)</PointC>
+				<PointD>(72, 0, 48)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>			
+			<li>
+				<ShapeNameTag>tb</ShapeNameTag>
+				<ShapeDefTag>Bed</ShapeDefTag>
+				<ShapeStuffTag>BlocksGranite</ShapeStuffTag>
+				<ShapeName>Points4</ShapeName>
+				<PointA>(105,2, 29)</PointA>
+				<PointB>(105, 0, 26)</PointB>
+				<PointC>(110, 0, 26)</PointC>
+				<PointD>(110, 0, 29)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>
+			<li>
+				<ShapeNameTag>AH</ShapeNameTag>
+				<ShapeDefTag>Table2x2c</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(106, 0, 36)</PointA>
+				<PointB>(45, 0, 41)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>	
+			<li>
+				<ShapeNameTag>AH1</ShapeNameTag>
+				<ShapeDefTag>Apparel_AdvancedHelmet</ShapeDefTag>
+				<ShapeStuffTag>Steel</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(108, 0, 36)</PointA>
+				<PointB>(45, 0, 41)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>				
+		</Shapes>
+		
+	  </mapLotDef>
+  </MapLotsFramework.MapLotDef>
+ 
+
+  <MapLotsFramework.MapLotDef>
+  <defName>HouseF</defName>
+	  <mapLotDef>
+		<LotName>House7</LotName>
+		<LotTags>
+		<li></li>
+		</LotTags>
+		<LotSize>(150,0,150)</LotSize>
+		<LotCorner>(50,0,50)</LotCorner>
+		<BiomeDefName>Desert</BiomeDefName>
+		<useBiome>false</useBiome>
+		<WorldObjectDefName>TownMap</WorldObjectDefName>
+		<useWorldObject>true</useWorldObject>
+		<Shapes>        
+			<li>
+				<ShapeNameTag>Slab</ShapeNameTag>
+				<ShapeDefTag>WoodPlankFloor</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(100, 0, 12)</PointA>
+				<PointB>(11,0,7)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+			</li> 
+			<li>
+				<ShapeNameTag>Walls</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(100, 0, 12)</PointA>
+				<PointB>(11,0,7)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 
+			
+			<li>
+				<ShapeNameTag>iw</ShapeNameTag>
+				<ShapeDefTag>DiningChair</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Points2</ShapeName>
+				<PointA>(108, 0, 13)</PointA>
+				<PointB>(109, 0, 15)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>
+		
+					
+			<li>
+				<ShapeNameTag>dr</ShapeNameTag>
+				<ShapeDefTag>Door</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(110, 0, 16)</PointA>
+				<PointB>(109, 0, 31)</PointB>
+				<PointC>(78, 0, 41)</PointC>
+				<PointD>(72, 0, 48)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>			
+			<li>
+				<ShapeNameTag>tb</ShapeNameTag>
+				<ShapeDefTag>DoubleBed</ShapeDefTag>
+				<ShapeStuffTag>BlocksGranite</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(102, 2, 17)</PointA>
+				<PointB>(105, 0, 26)</PointB>
+				<PointC>(110, 0, 26)</PointC>
+				<PointD>(110, 0, 29)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>
+			<li>
+				<ShapeNameTag>AH</ShapeNameTag>
+				<ShapeDefTag>Table2x2c</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(107, 0, 14)</PointA>
+				<PointB>(45, 0, 41)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>	
+			<li>
+				<ShapeNameTag>A3</ShapeNameTag>
+				<ShapeDefTag>Dresser</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(101, 1, 14)</PointA>
+				<PointB>(45, 0, 41)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>				
+			<li>
+				<ShapeNameTag>AH1</ShapeNameTag>
+				<ShapeDefTag>MeleeWeapon_Spear</ShapeDefTag>
+				<ShapeStuffTag>Steel</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(106, 0, 16)</PointA>
+				<PointB>(45, 0, 41)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>				
+		</Shapes>
+		
+	  </mapLotDef>
+  </MapLotsFramework.MapLotDef> 
+
+ <MapLotsFramework.MapLotDef>
+  <defName>HouseG</defName>
+	  <mapLotDef>
+		<LotName>House9</LotName>
+		<LotTags>
+		<li></li>
+		</LotTags>
+		<LotSize>(150,0,150)</LotSize>
+		<LotCorner>(50,0,50)</LotCorner>
+		<BiomeDefName>Desert</BiomeDefName>
+		<useBiome>false</useBiome>
+		<WorldObjectDefName>TownMap</WorldObjectDefName>
+		<useWorldObject>true</useWorldObject>
+		<Shapes>        
+			<li>
+				<ShapeNameTag>Slab</ShapeNameTag>
+				<ShapeDefTag>WoodPlankFloor</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(120, 0, 103)</PointA>
+				<PointB>(9,0,11)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+			</li> 
+			<li>
+				<ShapeNameTag>Walls</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(120, 0, 103)</PointA>
+				<PointB>(9,0,11)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 
+			
+			<li>
+				<ShapeNameTag>iw</ShapeNameTag>
+				<ShapeDefTag>SimpleResearchBench</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(122, 3, 106)</PointA>
+				<PointB>(27, 0, 105)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>
+		
+					
+			<li>
+				<ShapeNameTag>dr</ShapeNameTag>
+				<ShapeDefTag>Door</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(128, 0, 105)</PointA>
+				<PointB>(109, 0, 31)</PointB>
+				<PointC>(78, 0, 41)</PointC>
+				<PointD>(72, 0, 48)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>			
+			<li>
+				<ShapeNameTag>tb</ShapeNameTag>
+				<ShapeDefTag>Table1x2c</ShapeDefTag>
+				<ShapeStuffTag>BlocksGranite</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(127, 0, 108)</PointA>
+				<PointB>(105, 0, 26)</PointB>
+				<PointC>(110, 0, 26)</PointC>
+				<PointD>(110, 0, 29)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>
+			<li>
+				<ShapeNameTag>AH</ShapeNameTag>
+				<ShapeDefTag>Bow_Recurve</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(126, 0, 106)</PointA>
+				<PointB>(45, 0, 41)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>	
+			
+		</Shapes>
+		
+	  </mapLotDef>
+  </MapLotsFramework.MapLotDef> 
+
+<MapLotsFramework.MapLotDef>
+  <defName>HouseI</defName>
+	  <mapLotDef>
+		<LotName>House6</LotName>
+		<LotTags>
+		<li></li>
+		</LotTags>
+		<LotSize>(150,0,150)</LotSize>
+		<LotCorner>(50,0,50)</LotCorner>
+		<BiomeDefName>Desert</BiomeDefName>
+		<useBiome>false</useBiome>
+		<WorldObjectDefName>TownMap</WorldObjectDefName>
+		<useWorldObject>true</useWorldObject>
+		<Shapes>        
+			<li>
+				<ShapeNameTag>Slab</ShapeNameTag>
+				<ShapeDefTag>WoodPlankFloor</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(86, 0, 43)</PointA>
+				<PointB>(25,0,10)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+			</li> 
+			<li>
+				<ShapeNameTag>Walls</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(86, 0, 43)</PointA>
+				<PointB>(25,0,10)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 
+			<li>
+				<ShapeNameTag>Slab2</ShapeNameTag>
+				<ShapeDefTag>WoodPlankFloor</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(88, 0, 40)</PointA>
+				<PointB>(6,0,3)</PointB>
+				<PointC>(00,1,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				
+			</li> 
+			
+			<li>
+				<ShapeNameTag>iw</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Line</ShapeName>
+				<PointA>(96, 0, 44)</PointA>
+				<PointB>(96, 0, 52)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>
+			<li>
+				<ShapeNameTag>iw3</ShapeNameTag>
+				<ShapeDefTag>Wall</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Line</ShapeName>
+				<PointA>(88, 0, 43)</PointA>
+				<PointB>(93, 1, 43)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>		
+					
+			<li>
+				<ShapeNameTag>dr</ShapeNameTag>
+				<ShapeDefTag>Door</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(96, 0, 48)</PointA>
+				<PointB>(109, 0, 31)</PointB>
+				<PointC>(78, 0, 41)</PointC>
+				<PointD>(72, 0, 48)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>			
+			<li>
+				<ShapeNameTag>tb</ShapeNameTag>
+				<ShapeDefTag>FueledSmithy</ShapeDefTag>
+				<ShapeStuffTag>Steel</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(102, 0, 51)</PointA>
+				<PointB>(105, 0, 26)</PointB>
+				<PointC>(110, 0, 26)</PointC>
+				<PointD>(110, 0, 29)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>
+			<li>
+				<ShapeNameTag>AH</ShapeNameTag>
+				<ShapeDefTag>Apparel_PlateArmor</ShapeDefTag>
+				<ShapeStuffTag>Steel</ShapeStuffTag>
+				<ShapeName>Point</ShapeName>
+				<PointA>(105, 2, 44)</PointA>
+				<PointB>(45, 0, 41)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>false</isHollow>
+			</li>	
+			
+		</Shapes>
+		
+	  </mapLotDef>
+  </MapLotsFramework.MapLotDef> 
+
+ <MapLotsFramework.MapLotDef>
+  <defName>Paths</defName>
+	  <mapLotDef>
+		<LotName>Paths</LotName>
+		<LotTags>
+		<li></li>
+		</LotTags>
+		<LotSize>(150,0,150)</LotSize>
+		<LotCorner>(50,0,50)</LotCorner>
+		<BiomeDefName>Desert</BiomeDefName>
+		<useBiome>false</useBiome>
+		<WorldObjectDefName>TownMap</WorldObjectDefName>
+		<useWorldObject>true</useWorldObject>
+		<Shapes>        
+			<li>
+				<ShapeNameTag>Slab</ShapeNameTag>
+				<ShapeDefTag>BrokenAsphalt</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Rectangle</ShapeName>
+				<PointA>(74, 0, 23)</PointA>
+				<PointB>(22, 0, 18)</PointB>
+				<PointC>(00,0,00)</PointC>
+				<PointD>(0,1,0)</PointD>
+				<isNegative>false</isNegative>
+			</li> 
+			<li>
+				<ShapeNameTag>Path1</ShapeNameTag>
+				<ShapeDefTag>BrokenAsphalt</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>DrunkPath</ShapeName>
+				<PointA>(19, 0, 77)</PointA>
+				<PointB>(56,0,43)</PointB>
+				<PointC>(2,0,4)</PointC>
+				<PointD>(2,1,2)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 
+			<li>
+				<ShapeNameTag>Path2</ShapeNameTag>
+				<ShapeDefTag>BrokenAsphalt</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>DrunkPath</ShapeName>
+				<PointA>(28, 0, 54)</PointA>
+				<PointB>(58,0,64)</PointB>
+				<PointC>(2,0,4)</PointC>
+				<PointD>(2,1,2)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 			
+			<li>
+				<ShapeNameTag>Path3</ShapeNameTag>
+				<ShapeDefTag>BrokenAsphalt</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>DrunkPath</ShapeName>
+				<PointA>(56,0,43)</PointA>
+				<PointB>(51,0,39)</PointB>
+				<PointC>(2,0,4)</PointC>
+				<PointD>(2,1,2)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 			
+			<li>
+				<ShapeNameTag>Path4</ShapeNameTag>
+				<ShapeDefTag>BrokenAsphalt</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>DrunkPath</ShapeName>
+				<PointA>(51,0,39)</PointA>
+				<PointB>(74,0,30)</PointB>
+				<PointC>(2,0,4)</PointC>
+				<PointD>(2,1,2)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 		
+			<li>
+				<ShapeNameTag>Path5</ShapeNameTag>
+				<ShapeDefTag>BrokenAsphalt</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Line</ShapeName>
+				<PointA>(82,0,41)</PointA>
+				<PointB>(82,0,54)</PointB>
+				<PointC>(2,0,4)</PointC>
+				<PointD>(2,1,2)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 	
+			<li>
+				<ShapeNameTag>Path6</ShapeNameTag>
+				<ShapeDefTag>BrokenAsphalt</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>Line</ShapeName>
+				<PointA>(82,0,54)</PointA>
+				<PointB>(77,0,65)</PointB>
+				<PointC>(2,0,4)</PointC>
+				<PointD>(2,1,2)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 	
+			<li>
+				<ShapeNameTag>Path7</ShapeNameTag>
+				<ShapeDefTag>BrokenAsphalt</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>DrunkPath</ShapeName>
+				<PointA>(77,0,65)</PointA>
+				<PointB>(129,0,105)</PointB>
+				<PointC>(2,0,8)</PointC>
+				<PointD>(2,1,2)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li>
+			<li>
+				<ShapeNameTag>Path8</ShapeNameTag>
+				<ShapeDefTag>BrokenAsphalt</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>DrunkPath</ShapeName>
+				<PointA>(95,0,23)</PointA>
+				<PointB>(112,0,21)</PointB>
+				<PointC>(2,0,4)</PointC>
+				<PointD>(2,1,2)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li>
+			<li>
+				<ShapeNameTag>Path9</ShapeNameTag>
+				<ShapeDefTag>BrokenAsphalt</ShapeDefTag>
+				<ShapeStuffTag>WoodLog</ShapeStuffTag>
+				<ShapeName>DrunkPath</ShapeName>
+				<PointA>(111,0,16)</PointA>
+				<PointB>(113,0,34)</PointB>
+				<PointC>(2,0,4)</PointC>
+				<PointD>(2,1,2)</PointD>
+				<isNegative>false</isNegative>
+				<isHollow>true</isHollow>
+			</li> 			
+		</Shapes>
+		
+	  </mapLotDef>
+  </MapLotsFramework.MapLotDef>
+ </Defs>

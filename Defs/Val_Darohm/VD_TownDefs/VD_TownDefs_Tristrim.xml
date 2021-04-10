@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  
+
+ <MapLotsFramework.TownDef>
+    <defName>Tristrim</defName>
+	<PathDefName>Sand</PathDefName>
+	<UseAutoGen>false</UseAutoGen>
+	<MapSize>(250,1,250)</MapSize>
+	<WorldObjName>TristrimWO</WorldObjName>
+	<TargetBiome>Desert</TargetBiome>
+	<StepsAway>50</StepsAway>
+	
+	<NumberOfLots></NumberOfLots>
+	
+	<MapLotDefNames>
+	<li>Paths</li>
+	<li>HouseA</li>
+	<li>HouseB</li>
+	<li>HouseC</li>
+	<li>HouseI</li>
+	<li>HouseD</li>
+	<li>HouseH</li>
+	<li>HouseE</li>
+	<li>HouseF</li>
+	<li>HouseG</li>
+	<li>Church</li>
+	</MapLotDefNames>
+	
+	<MapLotTagCategories>
+	<li>
+		<LotCatDef>House</LotCatDef>
+		<percent>55</percent>
+	</li>
+	<li>
+		<LotCatDef>WorkShop</LotCatDef>
+		<percent>50</percent>
+	</li>
+	<li>
+		<LotCatDef>PowerPlant</LotCatDef>
+		<percent>0</percent>
+	</li>
+	<li>
+		<LotCatDef>MessHall</LotCatDef>
+		<percent>0</percent>
+	</li>
+	<li>
+		<LotCatDef>TownCenter</LotCatDef>
+		<percent>1</percent>
+		<Limit>1</Limit>
+	</li>
+	</MapLotTagCategories>
+    
+  </MapLotsFramework.TownDef>
+
+ </Defs>

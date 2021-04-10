@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef ParentName="BuildingBase"> 
+    <defName>VD_HealingWell</defName>
+    <label>Magical Well of Science</label>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Val_Darohm/HealWell</texPath>
+      <graphicClass>Graphic_single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>10</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>0.0</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <description>At first the you think it's magic but then you clearly see that it is science.</description>
+    <canOverlapZones>true</canOverlapZones>
+			<costList>
+			<Silver>20</Silver>
+		</costList>
+    <selectable>true</selectable>
+	<building>
+	  <deconstructible>false</deconstructible>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <size>(1,1)</size>
+    <comps>
+
+	  <li Class="Adventure.Mechanics.CompProperties_HealingAura">
+		
+		<ticksPerHeal>30</ticksPerHeal> <!-- 1 third = 1/60 of a second -->
+		<numberofHeals>50</numberofHeals>
+		<selfDestruct>false</selfDestruct>
+		<isProxy>false</isProxy>
+		<isDamageSwitch>false</isDamageSwitch>
+		<DamagePercent>50</DamagePercent>
+		<getDrops>false</getDrops>
+		<proxyRadius>1</proxyRadius>
+		<isSearched>true</isSearched>
+		<AuraRange>6</AuraRange>
+		<ForPlayer>true</ForPlayer>
+		<ForNonPlayer>true</ForNonPlayer>
+		<healAmount>0.1</healAmount>
+		<makeSmoke>true</makeSmoke>
+		<ButtonLabel>Search shrine</ButtonLabel>
+		<ButtonGraphicPath>Adventure/searchIcon</ButtonGraphicPath>
+		<ButtonDesc>Search the Shrine</ButtonDesc>
+      </li>
+      
+      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(155,155,0,0)</glowColor>
+      </li>  
+    </comps>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <staticSunShadowHeight>0.3</staticSunShadowHeight>
+    <designationHotKey>Misc3</designationHotKey>
+  </ThingDef>
+    
+   <ThingDef ParentName="BuildingNaturalBase">
+    <defName>RPGStairsUp</defName>
+    <label>Stairs up</label>
+    <description>The stairs up!</description>
+    <thingClass>Building</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <rotatable>false</rotatable>
+    <tickerType>Rare</tickerType>
+
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>4</Mass>
+      <Flammability>1.0</Flammability>
+      <MarketValue>50</MarketValue>
+    </statBases>
+	<building>
+	  <deconstructible>false</deconstructible>
+      <ai_chillDestination>true</ai_chillDestination>
+    </building>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>15</glowRadius>
+        <glowColor>(255,255,255,0)</glowColor>
+      </li>
+      
+    </comps>
+    <graphicData>
+      <texPath>Adventure/stairsup2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+  </ThingDef>
+  
+
+</Defs>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<WorldObjectDef>
+		<defName>ValDarohmWO</defName>
+		<label>Val'Darohm</label>
+		<description>Lost long ago, the ruins of Val'Darohm holds many dark secrets.</description>
+		<worldObjectClass>MapParent</worldObjectClass>
+		<texture>World/WorldObjects/JourneyDestination</texture>
+		<useDynamicDrawer>false</useDynamicDrawer>
+		<expandingIcon>true</expandingIcon>
+		<expandingIconTexture>World/WorldObjects/Expanding/JourneyDestination</expandingIconTexture>
+		<mapGenerator>HammerTime</mapGenerator>
+		<expandingIconPriority>6</expandingIconPriority>
+		<comps>
+			<li Class="WorldObjectCompProperties_Abandon" />
+		</comps>
+	</WorldObjectDef>
+	<WorldObjectDef>
+		<defName>TristrimWO</defName>
+		<label>Tristrim</label>
+		<description>The tiny town of Tristrim holds many dark secrets.</description>
+		<worldObjectClass>MapParent</worldObjectClass>
+		<texture>World/WorldObjects/JourneyDestination</texture>
+		<useDynamicDrawer>false</useDynamicDrawer>
+		<expandingIcon>true</expandingIcon>
+		<expandingIconTexture>World/WorldObjects/Expanding/JourneyDestination</expandingIconTexture>
+		<mapGenerator>CountryRoad</mapGenerator>
+		<expandingIconPriority>6</expandingIconPriority>
+		<comps>
+			<li Class="WorldObjectCompProperties_Abandon" />
+		</comps>
+	</WorldObjectDef>	
+</Defs>

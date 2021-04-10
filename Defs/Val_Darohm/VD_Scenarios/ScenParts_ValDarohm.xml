@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+   <ScenPartDef>
+    <defName>TownStart</defName>
+    <label>The Val'Darohm Adventure</label>
+    <scenPartClass>MapLotsFramework.Scenarios_TownMap</scenPartClass>
+    <category>StartingImportant</category>
+    <selectionWeight>1.0</selectionWeight>
+    <summaryPriority>999</summaryPriority>
+	<modExtensions>
+            <li Class="MapLotsFramework.TownMap_Scen_Extension">
+				<TownDefName>Tristrim</TownDefName>
+            </li>
+    </modExtensions>
+ </ScenPartDef>
+ 
+   <ScenarioDef>
+    <defName>ValDarohmScenario</defName>
+    <label>RimWorld Adventures!:The ruins of Val'Darohm</label>
+    <description>Legends tell of a mysterious underground city that is filled with treasure. The entrance to the underground city is somewhere in the town of Tristrim. Your party of adventurers are ready for danger, but Val’darohm might prove to be more than they can handle. Be prepared!
+You start with five fully armed adventurers. Expect combat, and choose your heroes accordingly.
+NOTE:
+The dungeon is randomly generated. You will never encounter the same dungeon twice.
+There are special rules that only apply inside of the dungeon. You will not need food while inside of the dungeon, and your heroes will have a minor passive regeneration. Your units will be drafted while inside of the dungeon.
+You must bring units close to objects (treasure chests, healing fountains, elevators, etc.) in order to activate them.
+</description>
+    <scenario>
+      <summary>Five adventurers set out to explore the underground city of Val’darohm. (DANGER)</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+		
+        <factionDef>PlayerTribe</factionDef>
+      </playerFaction>
+      <parts>
+
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>3</pawnCount>
+          <pawnChoiceCount>10</pawnChoiceCount>
+        </li>
+
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>Standing</method>
+          <visible>false</visible>
+        </li>
+        <li Class="MapLotsFramework.Scenarios_TownMap">
+			<def>TownStart</def>
+		</li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Steel</thingDef>
+          <count>100</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Pemmican</thingDef>
+          <count>480</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineHerbal</thingDef>
+          <count>20</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MeleeWeapon_Knife</thingDef>
+          <stuff>Steel</stuff>
+		  <count>1</count>
+        </li>
+		<li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MeleeWeapon_Mace</thingDef>
+          <stuff>Steel</stuff>
+		  <count>1</count>
+        </li>
+
+		<li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Apparel_SimpleHelmet</thingDef>
+          <stuff>Steel</stuff>
+		  <count>1</count>
+        </li>
+
+        <li Class="ScenPart_StartingAnimal">
+          <def>StartingAnimal</def>
+          <count>1</count>
+          <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+        </li>
+
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>Steel</thingDef>
+          <count>175</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>WoodLog</thingDef>
+          <count>400</count>
+        </li>   
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>Pemmican</thingDef>
+          <count>100</count>
+        </li>    
+
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>WoodLog</thingDef>
+          <count>200</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>Steel</thingDef>
+          <count>100</count>
+        </li>
+
+        <!-- Game start dialog -->
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>Welcome to adventure mode!
+This is the town of Tristrim. According to rumor, the entrance to the underground city of Valdorohm is somewhere here. Be careful, however, as you will not be the only treasure seekers who have heard the rumors…
+NOTE:
+There are special rules that only apply inside of the dungeon. You will not need food while inside of the dungeon, and your heroes will have a minor passive regeneration. Your units will be drafted while inside of the dungeon.
+You must bring units close to objects (treasure chests, healing fountains, elevators, etc.) in order to activate them.
+</text>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+        
+      </parts>
+    </scenario>
+  </ScenarioDef>
+
+
+
+
+
+
+
+ 
+</Defs>

@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+  	<ThingDef ParentName="BuildingBase">
+		<defName>ValDarohmFinder</defName>
+		<label>Town Well</label>
+		<description>I hope it is not poisoned or anything...</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Val_Darohm/well</texPath>
+			<drawSize>(3,3)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.52, 0.53, 0.09)</volume>
+				<offset>(0,0,-0.43)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(3,3)</size>
+		<canBeUsedUnderRoof>false</canBeUsedUnderRoof>
+		<fillPercent>0.15</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellOffset>(0,6,1)</interactionCellOffset>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<tickerType>Normal</tickerType>
+		<costList>
+			<Steel>500</Steel>
+			<Plasteel>250</Plasteel>
+			<ComponentIndustrial>30</ComponentIndustrial>
+			<ComponentSpacer>10</ComponentSpacer>
+		</costList>
+		<comps>
+			<!--li Class="PRimUtility.CompProperties_LabyrinthKey" >
+				<LabyrinthDefNameQueue>
+					<li>ValDarohmEnterance</li>
+				</LabyrinthDefNameQueue>
+				<QueueRandom>false</QueueRandom>
+				<UseTargetBiome>true</UseTargetBiome>
+				<isPortal>false</isPortal>
+				
+				<UseSameTile>false</UseSameTile>
+				<CycleLabyrinths>false</CycleLabyrinths>		
+				<PortalRadius>4</PortalRadius>
+				
+				<ButtonGraphicPath>dev/MapIcon</ButtonGraphicPath>
+				<ButtonLabel>Discover location of Ancient Ruins!</ButtonLabel>
+				<ButtonDesc>Use the machine to open the Ancient Cipher</ButtonDesc>
+				
+				<PullButtonGraphicPath>dev/Pullout</PullButtonGraphicPath>
+				<PullButtonLabel>Pull Out</PullButtonLabel>
+				<PullButtonDesc>Pull things around the Labyrinth enterance to the key!</PullButtonDesc>
+				
+				<PushButtonGraphicPath>dev/Pushin</PushButtonGraphicPath>
+				<PushButtonLabel>Push In</PushButtonLabel>
+				<PushButtonDesc>Push things around the key to the labyrinth enterance!</PushButtonDesc>				
+			</li-->
+		<li Class="CompProperties_SelfhealHitpoints">
+        <ticksPerHeal>1</ticksPerHeal> <!-- 60k ticks = 1 day, 10 hp per day -->
+
+		</li>
+		<li Class="CompProperties_Forbiddable"/>
+
+		</comps>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<Flammability>0.0</Flammability>
+			<MarketValue>350</MarketValue>
+			<Mass>7.5</Mass>
+			<JoyGainFactor>1.2</JoyGainFactor>
+		</statBases>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		</ThingDef>
+	
+	
+		<ThingDef ParentName="BuildingBase">
+		<defName>ValDarohmMainEnterance</defName>
+		<label>Val'Darohm Main Enterance</label>
+		<description>The Gates to the ancient city of Val'Darohm</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Val_Darohm/stairsdown</texPath>
+			<drawSize>(3,3)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.52, 0.53, 0.09)</volume>
+				<offset>(0,0,-0.43)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(3,3)</size>
+		<canBeUsedUnderRoof>false</canBeUsedUnderRoof>
+		<fillPercent>0.15</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<tickerType>Normal</tickerType>
+		<hasInteractionCell>false</hasInteractionCell>
+		<interactionCellOffset>(0,6,1)</interactionCellOffset>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Steel>500</Steel>
+			<WoodLog>750</WoodLog>
+			<BlocksGranite>30</BlocksGranite>
+			<BlocksSlate>30</BlocksSlate>
+			<BlocksSandstone>30</BlocksSandstone>
+			<BlocksMarble>30</BlocksMarble>
+			<BlocksLimestone>30</BlocksLimestone>
+		</costList>
+
+    <designationCategory>Misc</designationCategory>
+		<comps>
+			<li Class="Adventure.Core.CompProperties_LabyrinthKey" >
+				<LabyrinthDefNameQueue>
+					<li>ValDarohmRuins</li>
+				</LabyrinthDefNameQueue>
+				<QueueRandom>true</QueueRandom>
+				<UseTargetBiome>false</UseTargetBiome>
+				<UseSameTile>true</UseSameTile>
+				<isPortal>true</isPortal>
+				<CycleLabyrinths>false</CycleLabyrinths>		
+				<PortalRadius>4</PortalRadius>
+				
+				<ButtonGraphicPath>Adventure/KeyIcon</ButtonGraphicPath>
+				<ButtonLabel>Open ruins</ButtonLabel>
+				<ButtonDesc>Open the lost city of Val'Darohm! (ATTENTION!! Generating a new dungeon can require long load times depending on local hardware. Please stand by...)</ButtonDesc>
+				
+				<PullButtonGraphicPath>Adventure/Pullout</PullButtonGraphicPath>
+				<PullButtonLabel>Pull Out</PullButtonLabel>
+				<PullButtonDesc>Pull things out from around the enterance of the dungeon.</PullButtonDesc>
+				
+				<PushButtonGraphicPath>Adventure/Pushin</PushButtonGraphicPath>
+				<PushButtonLabel>Push In</PushButtonLabel>
+				<PushButtonDesc>Push things in from around the enterance of the dungeon.</PushButtonDesc>
+				
+				<GenButtonText>Generate Dungeon</GenButtonText>
+				<GenDialogText>"The adventure begins! You have opened the entrance of the underground city of Val’Darohm. Its treasures and dangers await within its dark halls…\n\nNOTE:There are special rules that only apply inside of the dungeon.You will not need food while inside of the dungeon, and your heroes will have a minor passive regeneration.Your units will be drafted while inside of the dungeon.You must bring units close to objects(treasure chests, healing fountains, elevators, etc.) in order to activate them.\n\n(WARNING: Generating new dungeons can take considerable amounts of time depending on your hardware. \nPlease wait while the process completes.)"</GenDialogText>				
+			</li>
+			      <li Class="CompProperties_SelfhealHitpoints">
+        <ticksPerHeal>1</ticksPerHeal> <!-- 60k ticks = 1 day, 10 hp per day -->
+
+      </li>
+			<li Class="CompProperties_Forbiddable"/>
+
+
+		</comps>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<MarketValue>350</MarketValue>
+			<Mass>7.5</Mass>
+			<JoyGainFactor>1.2</JoyGainFactor>
+		</statBases>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+	</ThingDef>
+
+
+  <!--HediffDef>
+  
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
+    <initialSeverity>0.001</initialSeverity>
+    <removeOnRedressChanceByDaysCurve>
+      <points>
+        <li>(0, 0)</li>
+        <li>(2, 0)</li>
+        <li>(7, 0.5)</li>
+        <li>(20, 1)</li>
+      </points>
+    </removeOnRedressChanceByDaysCurve>
+    <defName>CatatonicBreakdown</defName>
+    <label>catatonic breakdown</label>
+    <labelNoun>a catatonic breakdown</labelNoun>
+    <description>A state of mental shock which leads to a total inability to function. The victim collapses, effectively unconscious.</description>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>100000~300000</disappearsAfterTicks>
+      </li>
+      <li Class="HediffCompProperties_RecoveryThought">
+        <thought>Catharsis</thought>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef-->
+
+
+</Defs>
