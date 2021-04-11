@@ -47,8 +47,72 @@ getDrops: This indicates if the spawner will drop its building cost materials up
     <description>A rare chest used to store items.</description>
     <canOverlapZones>true</canOverlapZones>
 			<costList>
-			<Silver>50</Silver>
-			<Gold>10</Gold>
+			<MedicineHerbal>3</MedicineHerbal>
+			<Silver>500</Silver>
+			<Gold>100</Gold>
+		</costList>
+    <selectable>true</selectable>
+	<building>
+	  <deconstructible>false</deconstructible>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <size>(1,1)</size>
+    <comps>
+	<li Class="Adventure.Mechanics.CompProperties_PawnSpawner">
+		<isPlayer>false</isPlayer>
+		<thirdsBetweenSpawns>30</thirdsBetweenSpawns> <!-- 1 third = 1/60 of a second -->
+		<numberToSpawn>0</numberToSpawn>
+		<pawnKind>Pirate</pawnKind>
+		<newborn>false</newborn>
+		<selfDestruct>true</selfDestruct>
+		<isProxy>false</isProxy>
+		<isDamageSwitch>false</isDamageSwitch>
+		<DamagePercent>50</DamagePercent>
+		<getDrops>true</getDrops>
+		<proxyRadius>1</proxyRadius>
+		<lordJob>assault</lordJob>
+		<FactionDefName></FactionDefName>
+		<useFaction>false</useFaction>
+		<isSearched>true</isSearched> 
+		<ButtonLabel>Search</ButtonLabel>
+		<ButtonGraphicPath>Adventure/searchIcon</ButtonGraphicPath>
+		<ButtonDesc>Search the Chest</ButtonDesc>
+      </li>
+
+    </comps>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <staticSunShadowHeight>0.3</staticSunShadowHeight>
+    <designationHotKey>Misc3</designationHotKey>
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingBase"> 
+    <defName>VD_EpicChest</defName>
+    <label>Epic Chest</label>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Val_Darohm/EpicChest</texPath>
+      <graphicClass>Graphic_single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>10</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>0.0</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <description>A rare chest used to store items.</description>
+    <canOverlapZones>true</canOverlapZones>
+			<costList>
+			<Silver>2000</Silver>
+			<Gold>500</Gold>
+			<MedicineIndustrial>5</MedicineIndustrial>
 		</costList>
     <selectable>true</selectable>
 	<building>
@@ -109,7 +173,7 @@ getDrops: This indicates if the spawner will drop its building cost materials up
     <description>A chest used to store items.</description>
     <canOverlapZones>true</canOverlapZones>
 			<costList>
-			<Silver>20</Silver>
+			<Silver>200</Silver>
 		</costList>
     <selectable>true</selectable>
 	<building>
@@ -170,7 +234,7 @@ getDrops: This indicates if the spawner will drop its building cost materials up
     <description>A chest used to store items.</description>
     <canOverlapZones>true</canOverlapZones>
 			<costList>
-			<Silver>100</Silver>
+			<Silver>1000</Silver>
 		</costList>
     <selectable>true</selectable>
 	<building>

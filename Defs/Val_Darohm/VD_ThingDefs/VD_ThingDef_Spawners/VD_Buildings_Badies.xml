@@ -60,7 +60,7 @@ getDrops: This indicates if the spawner will drop its building cost materials up
 		<getDrops>true</getDrops>
 		<proxyRadius>10</proxyRadius>
 		<lordJob>assault</lordJob>
-		<FactionDefName></FactionDefName>
+		<FactionDefName>AdventureHostile</FactionDefName>
 		<useFaction>false</useFaction>
       </li>
   
@@ -111,7 +111,7 @@ getDrops: This indicates if the spawner will drop its building cost materials up
 		<getDrops>true</getDrops>
 		<proxyRadius>10</proxyRadius>
 		<lordJob>assault</lordJob>
-		<FactionDefName>RH_TET_Beastmen_GorFaction</FactionDefName>
+		<FactionDefName>AdventureHostile</FactionDefName>
 		<useFaction>false</useFaction>
 		<isPhotoSwitch>false</isPhotoSwitch>
 		<photoThreshold>0.1</photoThreshold>

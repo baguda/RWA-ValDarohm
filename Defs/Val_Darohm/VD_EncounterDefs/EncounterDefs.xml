@@ -35,8 +35,8 @@ Notes about encounterLevel:
         <lootSpawnerNames>
 		<li>VD_AdvancedChest</li>
 		<li>VD_AdvancedChest</li>
-		<li>VD_AdvancedChest</li>
-		<li>VD_AdvancedChest</li>
+		<li>VD_EpicChest</li>
+		<li>VD_EpicChest</li>
 		<li>VD_HealingWell</li>
 		<li>VD_HealingWell</li>
 		<li>VD_HealingWell</li>
@@ -146,7 +146,7 @@ Notes about encounterLevel:
 			<li>VD_RaidersRanged</li>
 		</enemySpawnerNames>
         <lootSpawnerNames>
-		<li>VD_AdvancedChest</li>
+		<li>VD_EpicChest</li>
 		</lootSpawnerNames>
         <encounterLevel>40</encounterLevel>
         <SpawnSpread>3</SpawnSpread>
