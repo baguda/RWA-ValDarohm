@@ -26,7 +26,7 @@ Notes about encounterLevel:
 	-The limit for probability as encounterLevel approaches the normalized rating is 50%. So if L = N then P = 0.5
 
  -->
-  <Adventure.PrimAdventure.EncounterDef>
+  <DungeonFrameWork.EncounterDef>
   		<defName>VD_MiniBoss</defName>
 		<label>VD_MiniBoss</label>
         <enemySpawnerNames>
@@ -44,11 +44,11 @@ Notes about encounterLevel:
         <encounterLevel>100</encounterLevel>
         <SpawnSpread>4</SpawnSpread>
 		<isMiniBoss>true</isMiniBoss>
-  </Adventure.PrimAdventure.EncounterDef>
+  </DungeonFrameWork.EncounterDef>
 
 
 
-  <Adventure.PrimAdventure.EncounterDef>
+  <DungeonFrameWork.EncounterDef>
   		<defName>VD_Raiders_Basic</defName>
 		<label>VD_Raiders_Basic</label>
         <enemySpawnerNames>
@@ -59,9 +59,9 @@ Notes about encounterLevel:
 		</lootSpawnerNames>
         <encounterLevel>10</encounterLevel>
         <SpawnSpread>4</SpawnSpread>
-  </Adventure.PrimAdventure.EncounterDef>
+  </DungeonFrameWork.EncounterDef>
 
-  <Adventure.PrimAdventure.EncounterDef>
+  <DungeonFrameWork.EncounterDef>
   		<defName>VD_Raiders_BasicA</defName>
 		<label>VD_Raiders_BasicA</label>
         <enemySpawnerNames>
@@ -74,9 +74,9 @@ Notes about encounterLevel:
 		</lootSpawnerNames>
         <encounterLevel>20</encounterLevel>
         <SpawnSpread>4</SpawnSpread>
-  </Adventure.PrimAdventure.EncounterDef>
+  </DungeonFrameWork.EncounterDef>
 
-  <Adventure.PrimAdventure.EncounterDef>
+  <DungeonFrameWork.EncounterDef>
   		<defName>VD_Raiders_BasicB</defName>
 		<label>VD_Raiders_BasicB</label>
         <enemySpawnerNames>
@@ -88,9 +88,9 @@ Notes about encounterLevel:
 		</lootSpawnerNames>
         <encounterLevel>15</encounterLevel>
         <SpawnSpread>3</SpawnSpread>
-  </Adventure.PrimAdventure.EncounterDef>
+  </DungeonFrameWork.EncounterDef>
 
-  <Adventure.PrimAdventure.EncounterDef>
+  <DungeonFrameWork.EncounterDef>
   		<defName>VD_Raiders_PodA</defName>
 		<label>VD_Raiders_PodA</label>
         <enemySpawnerNames>
@@ -103,9 +103,9 @@ Notes about encounterLevel:
 		</lootSpawnerNames>
         <encounterLevel>25</encounterLevel>
         <SpawnSpread>3</SpawnSpread>
-  </Adventure.PrimAdventure.EncounterDef>
+  </DungeonFrameWork.EncounterDef>
   
-  <Adventure.PrimAdventure.EncounterDef>
+  <DungeonFrameWork.EncounterDef>
   		<defName>VD_Raiders_Podb</defName>
 		<label>VD_Raiders_Podb</label>
         <enemySpawnerNames>
@@ -120,9 +120,9 @@ Notes about encounterLevel:
 		</lootSpawnerNames>
         <encounterLevel>30</encounterLevel>
         <SpawnSpread>3</SpawnSpread>
-  </Adventure.PrimAdventure.EncounterDef>
+  </DungeonFrameWork.EncounterDef>
   
-    <Adventure.PrimAdventure.EncounterDef>
+    <DungeonFrameWork.EncounterDef>
   		<defName>VD_Tribe_PodA</defName>
 		<label>VD_Tribe_PodA</label>
         <enemySpawnerNames>
@@ -135,9 +135,9 @@ Notes about encounterLevel:
 		</lootSpawnerNames>
         <encounterLevel>35</encounterLevel>
         <SpawnSpread>3</SpawnSpread>
-  </Adventure.PrimAdventure.EncounterDef>
+  </DungeonFrameWork.EncounterDef>
   
-      <Adventure.PrimAdventure.EncounterDef>
+      <DungeonFrameWork.EncounterDef>
   		<defName>VD_Tribe_PodB</defName>
 		<label>VD_Tribe_PodB</label>
         <enemySpawnerNames>
@@ -150,9 +150,9 @@ Notes about encounterLevel:
 		</lootSpawnerNames>
         <encounterLevel>40</encounterLevel>
         <SpawnSpread>3</SpawnSpread>
-  </Adventure.PrimAdventure.EncounterDef>
+  </DungeonFrameWork.EncounterDef>
   
-        <Adventure.PrimAdventure.EncounterDef>
+        <DungeonFrameWork.EncounterDef>
   		<defName>VD_Tribe_PodC</defName>
 		<label>VD_Tribe_PodC</label>
         <enemySpawnerNames>
@@ -169,5 +169,5 @@ Notes about encounterLevel:
 		</lootSpawnerNames>
         <encounterLevel>50</encounterLevel>
         <SpawnSpread>3</SpawnSpread>
-  </Adventure.PrimAdventure.EncounterDef>
+  </DungeonFrameWork.EncounterDef>
   </Defs>

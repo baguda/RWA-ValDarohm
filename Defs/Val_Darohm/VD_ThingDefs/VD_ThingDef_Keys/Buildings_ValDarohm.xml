@@ -94,7 +94,7 @@
 			</shadowData>
 		</graphicData>
 		<size>(3,3)</size>
-		<canBeUsedUnderRoof>false</canBeUsedUnderRoof>
+		<canBeUsedUnderRoof>true</canBeUsedUnderRoof>
 		<fillPercent>0.15</fillPercent>
 		<altitudeLayer>Building</altitudeLayer>
 		<tickerType>Normal</tickerType>
@@ -115,7 +115,7 @@
 
     <designationCategory>Misc</designationCategory>
 		<comps>
-			<li Class="Adventure.Core.CompProperties_LabyrinthKey" >
+			<li Class="DungeonFrameWork.CompProperties_DungeonKey" >
 				<LabyrinthDefNameQueue>
 					<li>ValDarohmRuins</li>
 				</LabyrinthDefNameQueue>

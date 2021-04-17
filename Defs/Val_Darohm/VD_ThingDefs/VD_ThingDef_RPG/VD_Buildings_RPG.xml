@@ -36,7 +36,7 @@
     <size>(1,1)</size>
     <comps>
 
-	  <li Class="Adventure.Mechanics.CompProperties_HealingAura">
+	  <li Class="AdventureFramework.CompProperties_HealingAura">
 		
 		<ticksPerHeal>30</ticksPerHeal> <!-- 1 third = 1/60 of a second -->
 		<numberofHeals>50</numberofHeals>

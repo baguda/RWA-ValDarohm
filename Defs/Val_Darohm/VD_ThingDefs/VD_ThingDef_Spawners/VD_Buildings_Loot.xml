@@ -58,7 +58,7 @@ getDrops: This indicates if the spawner will drop its building cost materials up
     </building>
     <size>(1,1)</size>
     <comps>
-	<li Class="Adventure.Mechanics.CompProperties_PawnSpawner">
+	<li Class="DungeonFrameWork.CompProperties_PawnSpawner">
 		<isPlayer>false</isPlayer>
 		<thirdsBetweenSpawns>30</thirdsBetweenSpawns> <!-- 1 third = 1/60 of a second -->
 		<numberToSpawn>0</numberToSpawn>
@@ -121,7 +121,7 @@ getDrops: This indicates if the spawner will drop its building cost materials up
     </building>
     <size>(1,1)</size>
     <comps>
-	<li Class="Adventure.Mechanics.CompProperties_PawnSpawner">
+	<li Class="DungeonFrameWork.CompProperties_PawnSpawner">
 		<isPlayer>false</isPlayer>
 		<thirdsBetweenSpawns>30</thirdsBetweenSpawns> <!-- 1 third = 1/60 of a second -->
 		<numberToSpawn>0</numberToSpawn>
@@ -182,7 +182,7 @@ getDrops: This indicates if the spawner will drop its building cost materials up
     </building>
     <size>(1,1)</size>
     <comps>
-	<li Class="Adventure.Mechanics.CompProperties_PawnSpawner">
+	<li Class="DungeonFrameWork.CompProperties_PawnSpawner">
 		<isPlayer>false</isPlayer>
 		<thirdsBetweenSpawns>30</thirdsBetweenSpawns> <!-- 1 third = 1/60 of a second -->
 		<numberToSpawn>0</numberToSpawn>
@@ -243,7 +243,7 @@ getDrops: This indicates if the spawner will drop its building cost materials up
     </building>
     <size>(1,1)</size>
     <comps>
-	<li Class="Adventure.Mechanics.CompProperties_PawnSpawner">
+	<li Class="DungeonFrameWork.CompProperties_PawnSpawner">
 		<isPlayer>false</isPlayer>
 		<thirdsBetweenSpawns>10</thirdsBetweenSpawns> <!-- 1 third = 1/60 of a second -->
 		<numberToSpawn>1</numberToSpawn>

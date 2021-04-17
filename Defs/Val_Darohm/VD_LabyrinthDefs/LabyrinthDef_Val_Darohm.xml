@@ -3,7 +3,7 @@
   
 	
 	
-	 <Adventure.PrimAdventure.DungeonDef>
+	 <DungeonFrameWork.DungeonDef>
 	<!--Basic-->
 		<defName>ValDarohmRuins</defName>
 		<label>Ruins of Val'Darohm</label>
@@ -38,7 +38,7 @@
 		
         <isOutDoored>false</isOutDoored>
 	
-	<Settings>
+	<!--Settings>
 	     <useWeather>true</useWeather> 
          <WeatherDefName>RPGGloom</WeatherDefName>
          <UseFoodFreeze>false</UseFoodFreeze> 
@@ -62,7 +62,7 @@
          <PartySize>5</PartySize>
          <useCheckPoint>true</useCheckPoint>
          <UseDrafted>true</UseDrafted>
-	</Settings>
+	</Settings-->
 	
 	
 	<!--DefNames PavedTile-->	
@@ -75,6 +75,7 @@
 		<EnterenceDefName>RPGStairsUp</EnterenceDefName>
 		<ExitDefName></ExitDefName>
 		<UseExit>false</UseExit>
+		<AdventureDefName>RWA_VD_Settings</AdventureDefName>
         <encounterDefNames>
 
 			<li>VD_MiniBoss</li>
@@ -124,78 +125,31 @@
 		<li>LivingP4T4h</li>
 		</LotsList>
 		
-	</Adventure.PrimAdventure.DungeonDef>
+	</DungeonFrameWork.DungeonDef>
 	
-	  
-   <!--Adventure.PrimAdventure.DungeonDef>
-	
-		<defName>ValDarohmEnterance</defName>
-		<label>Enterance to Val'Darohm</label>
-		
-		<PathWidth>5</PathWidth>        
-		<MapSize>(100,1,100)</MapSize>
-        <WorldObjName>ValDarohmWO</WorldObjName>
-		<IsLinked>false</IsLinked>
-		<TargetBiome>Tundra</TargetBiome>
-        <StepsAway>50</StepsAway>
-		<Enclosed>false</Enclosed>
+	<AdventureFramework.AdventureDef>	     
+		<defName>RWA_VD_Settings</defName>
+		<WorldObjectDefName>ValDarohmWO</WorldObjectDefName>
+		<useWeather>true</useWeather> 
+         <WeatherDefName>RPGGloom</WeatherDefName>
+         <UseFoodFreeze>false</UseFoodFreeze> 
+         <UseRestFreeze>false</UseRestFreeze>
+         <UseJoyFreeze>false</UseJoyFreeze> 
 
-		<isFilled>true</isFilled>
-        <isWalled>true</isWalled>
-        <isRoofed>true</isRoofed>
-        <isShellRoofed>true</isShellRoofed>
-        <isShellFloored>true</isShellFloored>
-        <isCaveLike>true</isCaveLike>
-		<UseBlockFloors>false</UseBlockFloors>
-		<isDoored>false</isDoored>
-		
-        <isWalkIn>true</isWalkIn>	
-        <isInZDir>false</isInZDir>
-        <isInPosDir>true</isInPosDir>
-		
-		<isWalkOut>false</isWalkOut>
-        <isOutZDir>false</isOutZDir>
-        <isOutPosDir>false</isOutPosDir>
-		
-        <isOutDoored>false</isOutDoored>
-	
-        <BlockDefName>Slate</BlockDefName>
-        <FloorDefName>MarshyTerrain</FloorDefName>
-        <DoorDefName>Door</DoorDefName>
-        <BlockStuffDefName>BlocksSandstone</BlockStuffDefName>
-        <FloorBlockDefName>WaterDeep</FloorBlockDefName>
-        <DoorStuffDefName>WoodLog</DoorStuffDefName>
-		<EnterenceDefName></EnterenceDefName>
-		<ExitDefName>ValDarohmMainEnterance</ExitDefName>
-		
-		<UseExit>true</UseExit>
-        <encounterDefNames>
-			<li>VD_Raiders_Basic</li>
-		</encounterDefNames>
-		<LinkedLabyrinthDefNames>
-		<li></li>
-		</LinkedLabyrinthDefNames>
-		
-		<ShapeList>
-		<li Class="PRimUtility.IntVecShape">
-			<ShapeName>Triangle</ShapeName>
-			<PointA>(5,0,10)</PointA>
-			<PointB>(30,0,90)</PointB>
-			<PointC>(95,0,18)</PointC>
-			<isNegative>true</isNegative>
-		</li>
+         <UseFoodModifier>true</UseFoodModifier>
+         <UseRestModifier>true</UseRestModifier>
+         <UseJoyModifier>true</UseJoyModifier>
+         <TicksPerTurn>600</TicksPerTurn>
+         <FoodPerTurn>0.025</FoodPerTurn>
+         <RestPerTurn>0.01</RestPerTurn>
+         <JoyPerTurn>0.01</JoyPerTurn>
 
-		</ShapeList>
-
-		<LotsList>
-		<li>CryptA1v</li>
-		<li>CryptA1h</li>
-		<li>CryptA2h</li>
-		
-		</LotsList>
-		
-	</Adventure.PrimAdventure.DungeonDef-->
-	
-	<!--*****************************************************************************************************************************-->
-	
+         <UseAdventureThought>true</UseAdventureThought>
+         <UseAdventureHealth>true</UseAdventureHealth>
+		 <HealthRegenPerTurn>0.1</HealthRegenPerTurn>
+         <useParty>true</useParty>
+         <PartySize>5</PartySize>
+         <usePartyCheckPoint>true</usePartyCheckPoint>
+         <UseDrafted>true</UseDrafted>
+</AdventureFramework.AdventureDef>
    </Defs>
