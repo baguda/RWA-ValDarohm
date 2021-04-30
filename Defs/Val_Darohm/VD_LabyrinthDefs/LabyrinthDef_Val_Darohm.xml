@@ -16,7 +16,9 @@
 		<TargetBiome>Desert</TargetBiome>
         <StepsAway>50</StepsAway>
 		<Enclosed>true</Enclosed>
-
+<isSegmented>false</isSegmented>
+<FilthFactor>0.1</FilthFactor>
+		<MakeFilth>true</MakeFilth>
 	<!--Labyrinth Details-->	
         <!--isOutlined>false</isOutlined-->
 		<isFilled>true</isFilled>
@@ -26,7 +28,10 @@
         <isShellFloored>true</isShellFloored>
         <isCaveLike>false</isCaveLike>
 		<UseBlockFloors>false</UseBlockFloors>
-		
+		<UseDarkness>true</UseDarkness>
+		<dungeonLightLevel>0.0</dungeonLightLevel>
+		<dungeonColor>(255,255,255)</dungeonColor>
+		<dungeonColorSaturation>1.5</dungeonColorSaturation>
 	<!--Enterance and exit-->
         <isWalkIn>false</isWalkIn>	
         <isInZDir>true</isInZDir>
@@ -38,31 +43,7 @@
 		
         <isOutDoored>false</isOutDoored>
 	
-	<!--Settings>
-	     <useWeather>true</useWeather> 
-         <WeatherDefName>RPGGloom</WeatherDefName>
-         <UseFoodFreeze>false</UseFoodFreeze> 
-         <UseRestFreeze>false</UseRestFreeze>
-         <UseJoyFreeze>false</UseJoyFreeze> 
-
-         <UseNeedsModifiers>true</UseNeedsModifiers>
-         <UseFoodModifier>true</UseFoodModifier>
-         <UseRestModifier>true</UseRestModifier>
-         <UseJoyModifier>true</UseJoyModifier>
-         <TicksPerTurn>600</TicksPerTurn>
-         <FoodPerTurn>0.025</FoodPerTurn>
-         <NeedsPerTurn>0.01</NeedsPerTurn>
-         <RestPerTurn>0.01</RestPerTurn>
-         <JoyPerTurn>0.01</JoyPerTurn>
-
-         <UseAdventureThought>true</UseAdventureThought>
-         <UseAdventureHealth>true</UseAdventureHealth>
-		 <HealthRegenPerTurn>0.1</HealthRegenPerTurn>
-         <useParty>true</useParty>
-         <PartySize>5</PartySize>
-         <useCheckPoint>true</useCheckPoint>
-         <UseDrafted>true</UseDrafted>
-	</Settings-->
+	
 	
 	
 	<!--DefNames PavedTile-->	
@@ -127,10 +108,12 @@
 		
 	</DungeonFrameWork.DungeonDef>
 	
+	
+	
 	<AdventureFramework.AdventureDef>	     
 		<defName>RWA_VD_Settings</defName>
 		<WorldObjectDefName>ValDarohmWO</WorldObjectDefName>
-		<useWeather>true</useWeather> 
+		<useWeather>false</useWeather> 
          <WeatherDefName>RPGGloom</WeatherDefName>
          <UseFoodFreeze>false</UseFoodFreeze> 
          <UseRestFreeze>false</UseRestFreeze>
