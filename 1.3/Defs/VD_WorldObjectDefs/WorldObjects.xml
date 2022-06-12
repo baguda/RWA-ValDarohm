@@ -16,6 +16,7 @@
 			<li Class="WorldObjectCompProperties_Abandon" />
 		</comps>
 	</WorldObjectDef>
+	
 	<WorldObjectDef>
 		<defName>TristrimWO</defName>
 		<label>Tristrim</label>

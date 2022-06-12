@@ -45,7 +45,7 @@
 		<isDamageSwitch>false</isDamageSwitch>
 		<DamagePercent>50</DamagePercent>
 		<getDrops>false</getDrops>
-		<proxyRadius>1</proxyRadius>
+		<proxyRadius>3</proxyRadius>
 		<isSearched>true</isSearched>
 		<AuraRange>6</AuraRange>
 		<ForPlayer>true</ForPlayer>

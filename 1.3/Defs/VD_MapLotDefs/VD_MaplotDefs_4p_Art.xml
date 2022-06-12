@@ -47,6 +47,7 @@
 			-->
 	<MapLotsFramework.MapLotDef>
 		<defName>ArtP4T1v</defName>
+		
 		<mapLotDef>
 		<LotName>ArtP4T1v</LotName>
 		<LotTags><li>A1</li></LotTags>

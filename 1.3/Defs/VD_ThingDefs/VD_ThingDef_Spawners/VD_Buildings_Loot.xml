@@ -69,7 +69,7 @@ getDrops: This indicates if the spawner will drop its building cost materials up
 		<isDamageSwitch>false</isDamageSwitch>
 		<DamagePercent>50</DamagePercent>
 		<getDrops>true</getDrops>
-		<proxyRadius>1</proxyRadius>
+		<proxyRadius>2</proxyRadius>
 		<lordJob>assault</lordJob>
 		<FactionDefName></FactionDefName>
 		<useFaction>false</useFaction>
@@ -132,7 +132,7 @@ getDrops: This indicates if the spawner will drop its building cost materials up
 		<isDamageSwitch>false</isDamageSwitch>
 		<DamagePercent>50</DamagePercent>
 		<getDrops>true</getDrops>
-		<proxyRadius>1</proxyRadius>
+		<proxyRadius>2</proxyRadius>
 		<lordJob>assault</lordJob>
 		<FactionDefName></FactionDefName>
 		<useFaction>false</useFaction>
@@ -193,7 +193,7 @@ getDrops: This indicates if the spawner will drop its building cost materials up
 		<isDamageSwitch>false</isDamageSwitch>
 		<DamagePercent>50</DamagePercent>
 		<getDrops>true</getDrops>
-		<proxyRadius>1</proxyRadius>
+		<proxyRadius>2</proxyRadius>
 		<lordJob>assault</lordJob>
 		<FactionDefName></FactionDefName>
 		<useFaction>false</useFaction>
@@ -254,7 +254,7 @@ getDrops: This indicates if the spawner will drop its building cost materials up
 		<isDamageSwitch>false</isDamageSwitch>
 		<DamagePercent>50</DamagePercent>
 		<getDrops>true</getDrops>
-		<proxyRadius>1</proxyRadius>
+		<proxyRadius>2</proxyRadius>
 		<lordJob>assault</lordJob>
 		<FactionDefName></FactionDefName>
 		<useFaction>false</useFaction>
